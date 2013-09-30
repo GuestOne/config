@@ -1,0 +1,4 @@
+
+[Default Applications]
+x-scheme-handler/http=iceweasel.desktop
+x-scheme-handler/https=iceweasel.desktop

@@ -1,0 +1,54 @@
+cd ~/packages/abslibre
+git pull
+
+# librechroot update
+
+# cd ~/workdirectory/pacchetto
+
+# libremakepkg
+
+spostati in ~/workingdirectory/pacchetto
+
+librestage pcr
+
+librerelease
+
+cd ~/packages/abslibre
+git pull
+
+prendi e sposta cartella di lavoro in abslibre/pcr (eliminando prima logs, pacchetto compilato e sorgenti) 
+e spostati in abslibre
+
+git add pcr/$your_package
+
+git commit -m "your commentary about your package...."
+
+git push
+
+
+
+
+cancellare da git
+
+cd ~/packages/abslibre
+git pull
+git rm -r pcr/package
+git commit -m "your commentary"
+git push
+
+
+cancellare da repository
+
+ssh repo
+db-remove pcr i686 smtube
+db-remove pcr x86_64 smtube
+rm public/pcr/os/i686/smtube-1.7-1-i686.pkg.tar.xz{,.sig}
+rm public/pcr/os/x86_64/smtube-1.7-1-i686.pkg.tar.xz{,.sig}
+rm public/pool/packages/smtube-1.7-1-i686.pkg.tar.xz{,.sig}
+rm public/pool/packages/smtube-1.7-1-x86_64.pkg.tar.xz{,.sig}
+ctrl+d per disconnettersi
+
+
+mandare file
+
+scp ~/path/to/folder/drumkit_list.php repo:public/other/hydrogen-libre/feeds
