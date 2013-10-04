@@ -13,7 +13,7 @@ source ~/.mutt/account.theguestone@gmail.com
 set spoolfile = "imaps://imap.gmail.com/INBOX"
 set ssl_starttls=yes
 set ssl_force_tls=yes
-set editor=xfw
+set editor=vim
 set folder = "imaps://imap.gmail.com:993"
 set imap_check_subscribed
 set hostname = gmail.com
