@@ -1,3 +1,5 @@
+macro index,pager d "<save-message>=[Gmail]/Trash<enter><enter><refresh>" "Trash Message"
+
 set imap_user = "theguestone@gmail.com"
 set imap_pass = ""
 set smtp_url = "smtp://theguestone@smtp.gmail.com:587/"
