@@ -150,7 +150,7 @@ bar {
         tray_output primary
 }
 
-exec --no-startup-id i3-msg 'workspace 1; exec urxvt -e mutt; exec urxvt -e newsbeuter; exec urxvt -e su'
+exec --no-startup-id i3-msg 'workspace 1; exec urxvt -e mutt; exec urxvt -e su'
 exec --no-startup-id i3-msg 'workspace 2; exec firefox'
 
 
